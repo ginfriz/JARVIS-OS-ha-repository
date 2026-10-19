@@ -1,0 +1,17 @@
+name: JARVIS OS
+description: Interfaccia 3D della casa integrata in Home Assistant.
+version: "0.1.0"
+slug: jarvis_os
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: auto
+init: false
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:home-automation
+panel_title: JARVIS OS
+image: ghcr.io/ginfriz/jarvis-os-ha
+options: {}
+schema: {}
