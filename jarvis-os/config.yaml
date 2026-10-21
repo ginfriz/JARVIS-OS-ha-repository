@@ -1,6 +1,6 @@
 name: JARVIS OS
 description: Interfaccia 3D della casa integrata in Home Assistant.
-version: "0.1.6"
+version: "0.1.7"
 homeassistant_api: true
 slug: jarvis_os
 arch:
